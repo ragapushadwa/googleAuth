@@ -6,5 +6,5 @@ app.get('/',(req,res)=>{
     res.send({data:'success'})
 })
 
-const PORT = process.env.PORT || 3001
-app.listen(3001)
+const PORT = process.env.PORT || 5000
+app.listen(5000)
